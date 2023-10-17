@@ -1,0 +1,12 @@
+.navbar {
+	background-color: rgba(var(--foreground-rgb), 0.5);
+	padding: 1.25rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: rgba(var(--background-end-rgb), 1);
+}
+
+.navbar a:hover {
+	opacity: 0.75;
+}
