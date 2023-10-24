@@ -29,7 +29,7 @@ export default function Home() {
 			<Link className={styles.card} href='/8'>
 				8
 			</Link>
-			<Link className={styles.card} href='/9'>
+			<Link className={styles.card} href='/10'>
 				9
 			</Link>
 		</main>
