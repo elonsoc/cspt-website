@@ -1,5 +1,10 @@
+import Example from './_components/Example';
 import styles from './page.module.css';
 
 export default function Nine() {
-	return <main className={styles.main}></main>;
+	return (
+		<main className={styles.main}>
+			<Example />
+		</main>
+	);
 }
