@@ -6,9 +6,9 @@ const Navigation = () => {
 	return (
 		<nav className={styles.navbar}>
 			<Link href='/'>Home</Link>
-			<a href="/1">About us</a>
-			<a href="/2">Resources</a>
-			<a href="/3">Contact</a>
+			<a href='/about'>About us</a>
+			<a href='/resources'>Resources</a>
+			<a href='/contact-us'>Contact</a>
 		</nav>
 	);
 };

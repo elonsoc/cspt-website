@@ -5,6 +5,8 @@
 	align-items: center;
 	justify-content: space-between;
 	color: rgb(var(--foreground-rgb));
+	position: relative;
+	z-index: 9999;
 }
 
 .navbar a:hover {

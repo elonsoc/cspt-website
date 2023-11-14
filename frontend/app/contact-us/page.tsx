@@ -1,10 +1,9 @@
 import styles from './page.module.css';
-import Hero from '../components/Hero/Hero';
 
-export default function Home() {
+export default function Contact() {
 	return (
 		<main className={styles.main}>
-			<Hero />
+			<h1> Contact Us </h1>
 		</main>
 	);
 }
