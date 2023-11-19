@@ -1,0 +1,34 @@
+.container {
+    animation: slideshow 25s infinite;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.title {
+    text-align: left;
+	font-size: 5vw;
+    margin-top: 25%;
+	color: white;
+	-webkit-text-stroke: 0.3vw white;
+	text-transform: uppercase;
+    z-index: 2;
+}
+
+.text {
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 2;
+    background-color: rgba(5, 0, 0, 0.8);
+}
+
+@keyframes slideshow {
+    0%, 24% { background-image: url('/images/pic3.webp'); }
+    25%, 50% { background-image: url('/images/pic1.jpeg'); }
+    51%, 76% { background-image: url('/images/pic5.jpg'); }
+    77%, 100% { background-image: url('/images/pic8.jpg'); }
+  }
